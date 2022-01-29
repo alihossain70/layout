@@ -1,0 +1,41 @@
+.main{
+    width: 1000px;
+    height: 1500px;
+    background-color: rgb(246, 255, 127);
+    margin: auto;
+}
+.logo{
+    text-align: left;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.menu{
+    width: 950px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px 25px 0px 25px;
+    float: left;
+}
+.slider{
+    width: 950px;
+    height: 500px;
+    margin: 10px 25px 10px 25px;
+    background-color: salmon;
+    float: left;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    background-color: slateblue;
+    border-radius: 10px;
+    border: 1px solid crimson;
+    position: relative;
+    left: 25px;
+}
+.button:hover{
+    background-color: darkorange;
+    color: white;
+}
